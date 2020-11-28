@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<title>Dog Express</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+<!-- Carousel -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<!-- Carousel -->
+
+	<style>
+		body {font-family: "Lato", sans-serif}
+		.mySlides {display: none}
+	</style>
+	
+	<body>
+
+		<!-- Header -->
+			<header class="w3-animate-bottom w3-container w3-theme w3-padding" id="myHeader">
+
+			</header>
+			
+
+		<!-- Navbar -->
+		<div class="w3-top">
+			 <div class="w3-bar w3-red w3-card-4">
+				<a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="epservicesit"></i></a>
+				<a href="#home" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+				<a href="#cardapio" class="w3-bar-item w3-button w3-padding-large">CARDÁPIO</a>
+				<a href="#valores" class="w3-bar-item w3-button w3-padding-large">QUANTO CUSTA?</a>
+				<a href="#pedido" class="w3-bar-item w3-button w3-padding-large">PEDIDO ONLINE</a>
+				<a href="#ouvidoria" class="w3-bar-item w3-button w3-padding-large">OUVIDORIA</a>
+			 </div>
+
+		<!-- Navbar on small screens -->
+
+			<div id="navDemo" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+				<a href="#home" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">HOME</a>
+				<a href="#cardapio" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CARDÁPIO</a>
+				<a href="#valores" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SERVIÇOS</a>
+				<a href="#pedido" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PEDIDO ONLINE</a>
+				<a href="#ouvidoria" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">OUVIDORIA</a>
+			</div>
+		</div>
+
+		<!-- Page content -->
+
+			<div class="w3-content" style="max-width:2000px;margin-top:16px">
+
+			<!-- HOME -->
+			<div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="home">
+				<div class="w3-center">
+				<br>
+					<img src="img\logo_vermelho.PNG" alt="logo"  class="w3-image w3-circle" width="200">
+				</div><br><br>
+				<!-- Carousel 02 -->
+				 <div id="myCarousel" class="carousel slide" data-ride="carousel">
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+					  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					  <li data-target="#myCarousel" data-slide-to="1"></li>
+					</ol>
+
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner">
+					  <div class="item active">
+						<img src="img/cachorro_capa.jpg" alt="img01" class="w3-center w3-image w3-rounded" style="width: auto" >
+					  </div>
+
+					  <div class="item">
+						<img src="img/salsichas.jpg" alt="img02" class="w3-center w3-image w3-rounded" style="width:100%">
+					  </div>
+
+					</div>
+
+					<!-- Left and right controls -->
+					<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+					  <span class="glyphicon glyphicon-chevron-left"></span>
+					  <span class="sr-only">Anterior</span>
+					</a>
+					<a class="right carousel-control" href="#myCarousel" data-slide="next">
+					  <span class="glyphicon glyphicon-chevron-right"></span>
+					  <span class="sr-only">Próximo</span>
+					</a>
+				 </div>
+				<!-- Carousel 02-->
+			</div>		   
+
+
+			<!-- cardapio -->			
+			<!-- Cards -->	
+			<div class="w3-container w3-content w3-padding-64 w3-center" style="max-width:800px" id="cardapio">
+				<h3 class="w3-wide">CARDÁPIO</h3>
+				<h4 class="w3-wide">Qual o tamanho da sua fome?</h4> <br>
+
+				<div class="w3-row-padding"> 
+
+					<div class="w3-third">
+						<div class="w3-container">
+						<h5 class="w3-wide w3-center">COMBOS</h5>
+						</div>
+						<div class="w3-card">
+						<img src="img/combo.jpg" alt="combo" style="width:100%">
+						</div>
+					</div>
+
+					<div class="w3-third">
+						<div class="w3-container">
+						<h5 class="w3-wide w3-center">DOG</h5>
+						</div>
+						<div class="w3-card-4">
+						<img src="img/cachorro01.jpg" alt="cachorro" style="width:100%">
+						</div>
+					</div>
+
+					<div class="w3-third">
+						<div class="w3-container">
+						<h5 class="w3-wide w3-center">BEBIDAS</h5>
+						</div>
+						<div class="w3-card-4">
+						<img src="img/bebidas.png" alt="bebidas" style="width:100%">
+						</div>
+					</div>
+
+				</div>
+				<br><br><br>
+			</div>
+			<!-- Cards -->	
+
+			<!-- VALORES -->
+			<!-- Slideshow -->
+ 				<div class="w3-container w3-content w3-padding-64 w3-center" style="max-width:800px" id="valores">
+
+					<div class="w3-container">
+					  <h3 class="w3-wide">QUANTO CUSTA?</h3>
+					  <p>Escolha a tabela de valores</p>
+					</div>
+					<div class="w3-content" style="max-width:800px">
+					  <img class="mySlides" src="img/combo.jpg" style="width:50%">
+					  <img class="mySlides" src="img/cachorro01.jpg" style="width:50%">
+					  <img class="mySlides" src="img/bebidas.png" style="width:50%">
+					</div>
+
+					<div class="w3-center">
+						<div class="w3-section">
+						<button class="w3-button demo w3-round-xxlarge" onclick="currentDiv(1)">Combos</button> 
+						<button class="w3-button demo w3-round-xxlarge" onclick="currentDiv(2)">Dogs</button> 
+						<button class="w3-button demo w3-round-xxlarge" onclick="currentDiv(3)">Bebidas</button> 
+						</div>
+
+						<script>
+							var slideIndex = 1;
+							showDivs(slideIndex);
+
+							function plusDivs(n) {
+							  showDivs(slideIndex += n);
+							}
+
+							function currentDiv(n) {
+							  showDivs(slideIndex = n);
+							}
+
+							function showDivs(n) {
+							  var i;
+							  var x = document.getElementsByClassName("mySlides");
+							  var dots = document.getElementsByClassName("demo");
+							  if (n > x.length) {slideIndex = 1}    
+							  if (n < 1) {slideIndex = x.length}
+							  for (i = 0; i < x.length; i++) {
+								x[i].style.display = "none";  
+							  }
+							  for (i = 0; i < dots.length; i++) {
+								dots[i].className = dots[i].className.replace(" w3-red", "");
+							  }
+							  x[slideIndex-1].style.display = "inline";  
+							  dots[slideIndex-1].className += " w3-red";
+							}
+						</script>
+					</div>
+  			 </div>
+			<!-- Slideshow -->
+
+			<!-- PEDIDO ONLINE -->			  
+				<div class="w3-container w3-content w3-padding-64 w3-center" style="max-width:800px" id="pedido">
+					<br> <br>
+					<h3 class="w3-wide">Opções de Pedidos</h3> <br><br>
+					<div class="w3-container">
+						 <button class="w3-button w3-green w3-round-xxlarge fa fa-whatsapp">    Entregamos para você</button>
+						  <br> <br> <br>
+						 <img src="img/mix.png" alt="img03" class="w3-center w3-image w3-rounded"style="width: auto">
+						  <br><br>
+						<button class="w3-button w3-amber w3-round-xxlarge fa fa-whatsapp">   Busque aqui</button>
+						  </p> </p> </p> 
+					</div>				
+				</div>
+				
+
+			<!-- OUVIDORIA -->			  
+				<div class="w3-container w3-content w3-padding-64 w3-center" style="max-width:800px" id="ouvidoria">
+					<img src="img/dog_vermelho.PNG" alt="dog" class="w3-center w3-image w3-rounded"style="width:auto">
+					<h3 class="w3-wide">Sua opiniao é importante para nós</h3> <br><br>
+					<div class="w3-container">
+						<button class="w3-button w3-green w3-round-xxlarge">OUVIDORIA</button>
+					</div>				
+				</div>
+
+				
+  			 </div>
+		<!-- End Page Content -->
+		  
+			<!-- Footer -->
+			<footer class="w3-container w3-padding w3-center w3-opacity w3-light-grey w3-xlarge">
+			  <div class="w3-xlarge w3-padding-32">
+			  
+				  <div style="position:relative;bottom:10px;" class="w3-tooltip w3-right">
+					<span class="w3-text w3-theme-light w3-padding">Início</span>    
+					<a class="w3-text-black" href="#myHeader"><span class="w3-xlarge">
+					<i class="fa fa-chevron-circle-up"></i></span></a>
+				  </div>
+				  <h4 class="w3-wide">Dog Express
+				  <i class="fa fa-facebook-official"></i>
+				  <i class="fa fa-instagram w3-hover-opacity"></i>
+				  </h4>
+			   </div>
+			</footer>
+			<!-- Footer -->
+
+	</body>
+</html>
